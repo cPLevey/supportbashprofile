@@ -12,9 +12,12 @@ curl -ks "$gh_profile_link" > "$tmp_profile_location";
 # Source if not empty
 if [ -s "$tmp_profile_location" ]; then
 	source "$tmp_profile_location";
+	echo "cpSupport Profile Sourced.";
 fi
 
 # Remove profile from /tmp
-if [ -e "tmp_profile_location" ]; then 
-	/bin/rm -f "$tmp_profile_location"
+if [ -f "tmp_profile_location" ]; then 
+	/bin/rm -f "$tmp_profile_location";
+	echo "Removed $tmp_profile_location";
+	echo "";
 fi
