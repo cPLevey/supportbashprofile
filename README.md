@@ -14,4 +14,4 @@ This is a bash profile for use in external servers to provide aliases and one-li
 
 # Load the profile
 
-     bin/sh <( curl -ks https://raw.github.com/location/loadprofile.sh )
+     bin/sh <( curl -ks https://raw.githubusercontent.com/cPLevey/supportbashprofile/master/loadprofile.sh )

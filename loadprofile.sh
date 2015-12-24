@@ -2,7 +2,7 @@
 # Profile loader. Used to shorten the command for loading the profile.
 
 ## Variables
-gh_profile_link='https://raw.github.com/location/support.profile';
+gh_profile_link='https://raw.githubusercontent.com/cPLevey/supportbashprofile/master/cpsupport.profile';
 tmp_profile_location='/tmp/cpsupport.profile';
 
 ## Perform Functions
