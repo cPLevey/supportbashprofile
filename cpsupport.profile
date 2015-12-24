@@ -1,5 +1,5 @@
 # cpsupport.profile
-alias ll='ls -lha'
-function etest(){
+export alias ll='ls -lha'
+export function etest(){
 	echo "cPSupport Profile has been sourced.";
 }
